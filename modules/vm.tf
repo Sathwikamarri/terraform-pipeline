@@ -1,4 +1,8 @@
-variable "rg_name" {}
+provider "azurerm" {
+  features {
+  }
+  skip_provider_registration = true
+}variable "rg_name" {}
 
 variable "location" {}
 
